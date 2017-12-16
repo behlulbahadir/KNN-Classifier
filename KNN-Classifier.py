@@ -28,7 +28,6 @@ y = veri[:, 8:9]
 K = 11
 
 classifiers = neighbors.KNeighborsClassifier(K, weights='distance')
-print(classifiers)
 classifiers.fit(x, y.ravel())
 
 dataClass = classifiers.predict([[2, 1, 5, 2, 2, 2, 0, 10]])
