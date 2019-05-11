@@ -1,4 +1,7 @@
-## KNN-Classifier with Sklearn
+## KNN-Classifier 
+### Installation for knn.py
+-  numpy
+-  pandas
 ### Dataset Information
 Postoperative patient dataset 
 
